@@ -1,0 +1,544 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1731px;
+  position: relative;
+}
+
+.desktop .footer {
+  position: absolute;
+  width: 1440px;
+  height: 162px;
+  top: 1569px;
+  left: 0;
+  background-color: #ffffff;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-color: #f1f1f1;
+}
+
+.desktop .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: 48px;
+  left: 624px;
+}
+
+.desktop .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "HK Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+}
+
+.desktop .p {
+  position: relative;
+  width: fit-content;
+  font-family: "HK Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-400);
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+}
+
+.desktop .ticker {
+  position: absolute;
+  width: 1970px;
+  height: 72px;
+  top: 780px;
+  left: 0;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  height: 72px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .rectangle-wrapper {
+  height: 72px;
+}
+
+.desktop .rectangle {
+  position: relative;
+  width: 72px;
+  height: 1440px;
+  top: -684px;
+  left: 684px;
+  background-color: #ffffff;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #000000;
+  transform: rotate(90deg);
+  backdrop-filter: blur(153px) brightness(100%);
+  -webkit-backdrop-filter: blur(153px) brightness(100%);
+}
+
+.desktop .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 125px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+
+.desktop .div-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "PP NeueBit-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(240, 79, 98) 0%, rgb(254, 206, 158) 50%, rgb(121, 209, 240) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "PP NeueBit-Bold", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .upcoming {
+  position: absolute;
+  width: 1442px;
+  height: 717px;
+  top: 852px;
+  left: 0;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 1440px;
+  height: 717px;
+  background-color: #ffffff;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  font-family: "HK Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 224px;
+  left: 100px;
+}
+
+.desktop .group-2 {
+  position: relative;
+  width: 387px;
+  height: 343px;
+  box-shadow: 0px 3px 8px #0000001a;
+}
+
+.desktop .group-wrapper {
+  position: absolute;
+  width: 387px;
+  height: 111px;
+  top: 232px;
+  left: 0;
+}
+
+.desktop .group-3 {
+  position: relative;
+  height: 111px;
+  background-color: #ffffff;
+}
+
+.desktop .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 25px;
+  position: absolute;
+  top: 37px;
+  left: 220px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+}
+
+.desktop .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "HK Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #adadad;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  line-height: normal;
+}
+
+.desktop .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.desktop .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "HK Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.48px;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-7 {
+  position: relative;
+  width: 190px;
+  font-family: "HK Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .image-wrapper {
+  position: absolute;
+  width: 387px;
+  height: 232px;
+  top: 0;
+  left: 0;
+  background-color: #090923;
+}
+
+.desktop .image {
+  width: 112px;
+  height: 190px;
+  top: 21px;
+  left: 136px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.desktop .text-wrapper-8 {
+  width: fit-content;
+  position: relative;
+  font-family: "HK Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .group-4 {
+  position: absolute;
+  width: 387px;
+  height: 232px;
+  top: 0;
+  left: 0;
+  background-color: #f5f6f6;
+  background-image: url(./img/mask-group.png);
+  background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-9 {
+  width: 170px;
+  position: relative;
+  font-family: "HK Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .img {
+  width: 232px;
+  height: 232px;
+  top: 0;
+  left: 77px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .hero {
+  position: absolute;
+  width: 1440px;
+  height: 680px;
+  top: 100px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.desktop .frame-7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  top: 108px;
+  left: 287px;
+}
+
+.desktop .text-wrapper-10 {
+  position: relative;
+  width: 866px;
+  height: 64px;
+  margin-top: -1px;
+  font-family: "HK Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--black-900);
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  line-height: 65px;
+  white-space: nowrap;
+}
+
+.desktop .coming-soon-outline {
+  position: relative;
+  width: 716px;
+  height: 236px;
+}
+
+.desktop .newsletter {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-11 {
+  position: relative;
+  width: 371px;
+  margin-top: -1px;
+  font-family: "HK Grotesk-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.36px;
+  line-height: 24px;
+}
+
+.desktop .form-field {
+  position: relative;
+  width: 370.5px;
+  height: 45px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  width: 370px;
+  height: 45px;
+}
+
+.desktop .frame-8 {
+  display: flex;
+  width: 99px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 20px;
+  position: absolute;
+  top: 0;
+  left: 272px;
+  background-color: var(--black-900);
+  border-radius: 0px 8px 8px 0px;
+}
+
+.desktop .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -4px;
+  margin-bottom: -2px;
+  font-family: "HK Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: normal;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 273px;
+  height: 45px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 271px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 8px 0px 0px 8px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: var(--gray-300);
+}
+
+.desktop .text-wrapper-13 {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  top: 12px;
+  left: 13px;
+  font-family: "HK Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-400);
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .navigation {
+  position: absolute;
+  width: 1442px;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-3 {
+  position: relative;
+  width: 1440px;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.desktop .text-wrapper-14 {
+  position: absolute;
+  height: 36px;
+  top: 33px;
+  left: 30px;
+  font-family: "HK Grotesk-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: -0.84px;
+  line-height: normal;
+}
+
+.desktop .link {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 37px;
+  left: 1324px;
+}
+
+.desktop .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "HK Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0.03px;
+  line-height: 20px;
+  white-space: nowrap;
+}

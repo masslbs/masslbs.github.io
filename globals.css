@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "HK Grotesk-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/631264ee6a7b96f29c1e0388/fonts/hkgrotesk-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "PP NeueBit-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/61b6865d40e68b8151a70da1/fonts/ppneuebit-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "HK Grotesk-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b510c5c7d0d3f000a93d534/HKGrotesk-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HK Grotesk-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b510c5c7d0d3f000a93d534/HKGrotesk-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HK Grotesk-ExtraBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5d64fdca4212fbfd191feb3c/HKGrotesk-ExtraBold.ttf") format("truetype");
+}
